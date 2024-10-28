@@ -1,0 +1,78 @@
+.mainHeading h1 {
+  display: inline-block;
+  background-color: beige;
+  color: blueviolet;
+  font-size: 43px;
+  border: 5px dotted #d1d1d1;
+  border-radius: 12px;
+  font-family: "Lora", serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.1);
+  filter: drop-shadow(5px 5px 10px rgba(70, 130, 180, 0.25));
+}
+
+.mainHeading {
+  text-align: center;
+}
+
+.investorDiv {
+  background-color: hsl(120, 100%, 97%);
+  width: 300px;
+  border: 15px dashed hwb(36 68% 0%);
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(255, 105, 180, 0.5);
+  padding: 10px;
+  margin: 14px;
+  display: inline-block;
+  text-shadow: 1px 1px 2px #ffa07a, 2px 2px 3px #e0ffff;
+}
+
+.investorDiv img {
+  width: 300px;
+  filter: drop-shadow(5px 5px 10px rgba(70, 130, 180, 0.25));
+}
+
+.investorDiv h2 {
+  text-align: center;
+}
+
+.investorDiv p {
+  text-align: justify;
+}
+
+.grid {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+  width: 100%; /* Full width of the grid */
+  display: grid; /* Use grid for layout */
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  justify-content: space-between; /* Distribute space evenly */
+}
+
+.resourceNav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 9px;
+  background-color: rgb(75, 0, 130);
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Smooth transition */
+  font-size: 17px;
+  margin: 9px;
+}
+
+.georgeDiv {
+  background-color: lightyellow;
+  border: 15px groove ghostwhite;
+}
+
+.peterDiv {
+  background-color: aliceblue;
+  border: 15px outset greenyellow;
+}
+
+.rayDiv {
+  background-color: lavenderblush;
+  border: 15px dotted violet;
+}
